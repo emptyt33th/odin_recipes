@@ -1,0 +1,11 @@
+report one:
+
+	.website works on firefox
+	.does not function well on explorer or chrome
+	.does not respond well to different width dimensions
+	.link styling non-present
+	.bad user experience 
+	
+goals:
+	.will work to make it universally responsive on all device sizes and browsers 
+	.will strip it down and work back up to identify and evaluate where the trouble starts and ends
