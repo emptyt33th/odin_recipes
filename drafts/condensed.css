@@ -1,0 +1,335 @@
+.home-button, .emphasis, .title, .salad-title {
+    font-weight:        bold;
+
+}
+.salad-title, .reverse-ordered-list, .ordered-list, .left-recipe-source, .right-recipe-source, .lasagne-recipe-source {    
+    margin-top:         2rem;
+}
+.salad-title, .section-one, .reverse-section-two {
+    margin-right:       0rem;
+}
+.title, .salad-title {
+    background-color: rgb(240, 230, 223);
+    color:            #aa8379;
+    font-size:          5rem;
+    font-family:        Tahoma, 
+                        Verdana, 
+                        Segoe, 
+                        sans-serif;
+    text-transform:     uppercase;
+   -webkit-text-stroke: 2px
+                      aliceblue;
+    border:           beige
+                        15px
+                        solid;
+    outline:          rgb(58, 48, 94) 
+                        solid
+                        7px;
+    padding-top:        2.5rem;
+    padding-bottom:     2.5rem;
+}
+#intro-text, .reverse-ordered-list, .unordered-list, .salad-unordered-list-one, .salad-unordered-list-two {
+    color:            rgb(40, 27, 87); 
+}
+#intro-text, .reverse-ordered-list, .reverse-unordered-list, .reverse-recipe-source, .strawberry-unordered-list, 
+ .unordered-list, .ordered-list, .left-recipe-source, .right-recipe-source, .lasagne-recipe-source, .strawberry-recipe-source, 
+ .salad-ordered-list-one, .salad-ordered-list-two, .salad-recipe-source-one, .salad-recipe-source-two {
+    font-size:          1rem;
+}
+#intro-text, .reverse-recipe-source, .left-recipe-source, .right-recipe-source, .lasagne-recipe-source, .strawberry-recipe-source, 
+  .salad-recipe-source-one, .salad-recipe-source-two {
+    font-style:         italic;
+}
+#intro-text, .section-one, .section-two, .reverse-section-two, .salad-ingredients-one, .salad-ingredients-two   {
+    margin-bottom:      3rem;
+}
+.home-button, .subheading, .reverse-subheading, .salad-unordered-list-one, .salad-unordered-list-two  {
+    font-size:          1.25rem;
+}
+.subtitle, .accent {
+    text-decoration:    line-through;
+}
+.subtitle, .unordered-list, .salad-unordered-list-one  {
+    margin-top:         4rem;
+}
+.subheading, .reverse-subheading {
+    color:            rgb(58, 48, 94);
+}
+.section-one, .section-two, .piri-section-one, .reverse-section-two, .strawberry-section-one, .lasagne-recipe-source, 
+ .salad-ingredients-one, .salad-ingredients-two     {
+    background-color: beige;
+}
+.section-one, .reverse-section-two, .salad-ingredients-one, .salad-ingredients-two      {
+    width:              35rem;
+
+}
+.section-one, .section-two, .piri-section-one, .reverse-section-two, .strawberry-section-one, .gif, .salad-ingredients-one, 
+ .salad-ingredients-two, .salad-method-one, .salad-method-two, .salad-ordered-list-one, .salad-ordered-list-two, 
+ .lasagne-unordered-list   {
+    margin-top:         3rem;
+}
+.section-one, .piri-section-one, .reverse-section-two, .strawberry-section-one, .reverse-ordered-list, .strawberry-unordered-list, 
+ .salad-ingredients-one, .salad-method-two, .img-two, .lasagne-unordered-list    {
+    margin-left:        10rem;
+}
+.section-one, .reverse-section-two, .salad-ingredients-one, .salad-ingredients-two   {
+    padding-right:      1rem;
+}
+.section-one, .reverse-section-two, .salad-ingredients-one, .salad-ingredients-two    {
+    padding-left:       1rem;
+}
+.section-one, .reverse-recipe-source, .left-recipe-source, .right-recipe-source, .lasagne-recipe-source, .strawberry-recipe-source, 
+ .salad-method-two, .img-two, .salad-recipe-source-one  {
+    float:              left;
+}
+.section-two, .piri-section-one, .strawberry-section-one, .lasagne-unordered-list   {
+    margin-right:       10rem; 
+}
+.section-two, .piri-section-one, .lasagne-unordered-list, .strawberry-section-one   {
+    border:           rgb(238, 200, 172)
+                        4px 
+                        dashed;
+}
+.section-two, .piri-section-one, .strawberry-section-one, .lasagne-unordered-list, .gif, .salad-ingredients-two, .salad-method-one, 
+ .img-one, .salad-recipe-source-two, .salad-unordered-list-two   {
+    float:              right;
+}
+.piri-section-one, .strawberry-section-one, .lasagne-unordered-list  {
+    width:              59.7rem;
+    padding-top:        2rem;
+}
+.piri-section-one, .strawberry-section-one, .strawberry-recipe-source, .salad-method-one, .lasagne-unordered-list    {
+    margin-bottom:      0rem;
+}
+.reverse-section-two, .reverse-recipe-source, .salad-ingredients-one, .salad-ingredients-two   {
+    padding-top:        0.5rem;
+}
+.reverse-ordered-list, .reverse-unordered-list, .strawberry-unordered-list, .unordered-list, .ordered-list, .salad-ordered-list-one, 
+ .salad-ordered-list-two, .salad-unordered-list-one, .salad-unordered-list-two  {
+    font-family:        CourierNew,
+                        Courier,
+                        LucidaSansTypewriter,
+                        LucidaTypewriter,
+                        monospace;
+}
+.reverse-ordered-list, .salad-recipe-source-one  {
+    width:              20rem;  
+}
+.reverse-ordered-list, .reverse-recipe-source, .ordered-list  {
+    margin-left:        3.5rem;
+}
+.reverse-ordered-list, .ordered-list   {
+    line-height:        1.5;
+}
+.reverse-ordered-list, .reverse-unordered-list, .strawberry-unordered-list, .unordered-list, .ordered-list, .salad-ordered-list-one, 
+ .salad-ordered-list-two, .salad-unordered-list-one, .salad-unordered-list-two  {
+    list-style-position:inside;
+}
+.reverse-ordered-list, .reverse-unordered-list, .strawberry-unordered-list, .unordered-list, .ordered-list, .salad-ordered-list-one, 
+ .salad-ordered-list-two, .salad-unordered-list-one  {
+    text-align:         left;
+}
+.reverse-unordered-list, .unordered-list, .salad-ordered-list-one, .salad-ordered-list-two, .salad-unordered-list-one, 
+ .salad-unordered-list-two   {
+    line-height:        1.75;
+}
+.reverse-unordered-list, .strawberry-unordered-list, .unordered-list {
+    width:              30rem;
+}
+.reverse-unordered-list, .reverse-recipe-source {
+    margin-top:         1rem;
+}
+.reverse-unordered-list, .strawberry-unordered-list, .unordered-list, .salad-unordered-list-one, .salad-unordered-list-two   {
+    list-style-type:    square;
+}
+.reverse-recipe-source, .left-recipe-source, .right-recipe-source, .lasagne-recipe-source, .strawberry-recipe-source, 
+ .salad-recipe-source-one, .salad-recipe-source-two  {
+    font-family:        Geneva, 
+                        Tahoma, 
+                        Verdana, 
+                        sans-serif;
+}
+.reverse-recipe-source, .left-recipe-source, .lasagne-recipe-source, .salad-unordered-list-one, .salad-recipe-source-two   {
+    width:              15rem;
+}
+.strawberry-unordered-list, .strawberry-recipe-source {  
+    margin-top:         5rem;
+}
+.home-button, .left-recipe-source, .right-recipe-source, .lasagne-recipe-source, .strawberry-recipe-source, .salad-recipe-source-one, 
+ .salad-recipe-source-two   {
+    padding-top:        0rem;
+    padding-bottom:     0rem;
+}
+.left-recipe-source, .right-recipe-source, .strawberry-recipe-source   {
+    padding-right:      10rem;
+    padding-left:       10rem;  
+}
+.right-recipe-source, .strawberry-recipe-source  {
+    width:              25rem;
+    margin-left:       -5rem;
+}
+.lasagne-recipe-source, .salad-unordered-list-one, .salad-recipe-source-one, .salad-recipe-source-two  {
+    padding-right:      5rem;
+}
+.title, .lasagne-recipe-source, .salad-unordered-list-one, .salad-recipe-source-one, .salad-recipe-source-two {
+    padding-left:       5rem;
+}
+.gif, .salad-method-one, .salad-method-two, .img-one, .img-two   {
+    width:              950px;
+    height:             500px;
+}
+.gif, .salad-ingredients-two, .salad-method-one, .img-one, .img-two    {
+    margin-right:       10rem;
+}
+.salad-ingredients-one, .salad-ingredients-two  {
+    padding-bottom:     5.5rem;
+}
+.salad-ingredients-one, .salad-ingredients-two,    {
+    border:           #aa8379 
+                        8px 
+                        solid;
+}
+.salad-unordered-list-one, .salad-unordered-list-two   {
+    border:           #aa8379 
+                        5px 
+                        dashed;
+    padding-top:        3rem;
+}
+.salad-method-one, .salad-method-two  {
+    background-color: rgb(40, 27, 87);
+}
+.salad-method-one, .salad-method-two, .img-one, .img-two   {
+    border:           beige
+                        5px 
+                        solid; 
+}
+.salad-ordered-list-one, .salad-ordered-list-two  {
+    color:            aliceblue;
+    width:              40rem;
+}
+.salad-ordered-list-one, .salad-ordered-list-two, .salad-unordered-list-one  {
+    margin-left:        5rem;    
+}
+.salad-recipe-source-one, .salad-recipe-source-two   {
+    margin-top:         2.5rem;    
+}
+
+#background {
+    font-size:          62.5%;
+    text-align:         center;
+}
+#background-video {
+    width:                100vw;
+    height:               100vh;
+    object-fit:           cover;
+    position:             fixed;
+    left:                 0;
+    right:                0;
+    top:                  0;
+    bottom:               0;
+    z-index:             -1;
+}
+.title {
+    width:              60rem;
+    margin-bottom:     -2.5rem;
+    margin-left:        23.35rem;
+    padding-right:      5rem;
+}
+.salad-title {
+    width:              90rem;
+    margin-left:        15rem;
+    margin-bottom:     -3rem;
+}
+#intro-text {
+    margin-top:        -1rem;
+}
+.home-button {
+    background-color: #aa8379;
+    margin-bottom:      10rem;
+    padding-right:      50rem;
+    padding-bottom:     0rem;
+    padding-left:       50rem;
+}
+.subtitle {
+    color:            rgb(255, 190, 105);
+    font-size:          3rem;
+    margin-bottom:      2rem;
+}
+.subheading {
+    margin-top:         4.25rem;
+}
+.section-one {
+    padding-top:        5rem;
+    padding-bottom:     3.15rem;
+}
+.piri-section-one {
+    padding-bottom:     4.75rem;
+}
+.strawberry-section-one {
+    padding-bottom:     3.75rem;
+}
+.section-two {
+    width:              59.5rem;
+    margin-left:        0rem;
+    padding-bottom:     2rem;
+}
+.reverse-section-two {
+    padding-bottom:     4.9rem;
+}
+.unordered-list {
+    margin-left:        2rem;
+}
+.lasagne-unordered-list {
+    padding-bottom:     1.5rem;
+}
+.salad-unordered-list-one {
+    padding-bottom:     7rem;
+}
+.salad-unordered-list-two {
+    margin-top:         1.5rem;
+    margin-right:       3.5rem;
+    padding-right:      3rem;
+    padding-bottom:     3rem;
+    padding-left:       3rem;    
+    text-align:         right;
+}
+.strawberry-unordered-list {
+    line-height:        2.5;
+}
+.ordered-list {
+    width:              50rem;
+}
+.reverse-recipe-source {
+    padding-right:      0.5rem;
+    padding-bottom:     0.5rem;
+    padding-left:       0.5rem;
+}
+.salad-recipe-source-one {
+    margin-left:       -7rem;
+}
+.salad-recipe-source-two {
+    margin-right:       -3rem;
+    text-align:         center;
+}
+.gif {
+    border:           rgb(40, 27, 87) 
+                        5px 
+                        solid;
+}
+#copyright {
+    color:            rgb(54, 51, 51);
+    clear:              both;
+   -webkit-text-stroke: 
+                      black 
+                        0.25px;
+}
+a:link {
+    color:            orange;
+    text-decoration:    none;
+}
+a:hover {
+    color:            lime;
+}
+a:visited {
+    color:            grey;
+}
