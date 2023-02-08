@@ -4,81 +4,67 @@
     <meta charset="utf-8">
     <meta name="viewport=" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="img/cooking-icon.png">
+    <link rel="stylesheet" href="index.css">
     <title>
         Odin Recipes
     </title>
-    <link rel="icon" type="image/x-icon" href="img/cooking-icon.png">
 </head>
-<body style="background-color: rgb(40, 27, 87); text-align: center;">
+<body id="background">
     <header>
-        <h1 style="font-size: 500%; color: rgb(231, 143, 84); text-align: center;">
-                    O D I <s>N  R</s> E C I P E S
-            </h1>
-            <div style="font-size: 150%; color: aliceblue; text-align: center;">
-                We know that food and cooking can be really <strong>exhausting</strong> and 
-                really<br> <strong>confusing</strong>, like ;__; <em>why did I even bother?
-                </em>
-            </div>
-            <br><br>
-            <a href="https://giphy.com/gifs/theyetee-6rFej0sxi1bBwloyR" target="_blank">
-                <img src="img/crying-yeti.gif" alt="Gif of a Crying Yeti">
-            </a>
-            <br><br>
-            <div style="font-size: 150%; color: aliceblue; text-align: center;">
-                That's why we've chosen to <strong>focus</strong> on a <em>select</em> number 
-                of recipes<br> <strong>only.</strong> From there it's up to <strong>you</strong> 
-                to change things as <strong>you</strong> like.
-            </div>
-            <br><br>
-            <h1 style="font-size: 350%; color: rgb(231, 143, 84); text-align: center;">
-                    T H <s>E <br> R</s> E C I P E S
-            </h1>
-        </header>
-        <br><br>
-        <main style="font-size: 175%; color: rgb(231, 143, 84); text-align: center;">
-            <p>
-                <a href="recipes/dandan-mian.html" style="text-decoration: none;">
-                    <strong>DAN DAN MIAN</strong>
-                </a>
-            </p>
-            <br>
-            <p>
-                <a href="recipes/lasagne.html" style="text-decoration: none;">
-                    <strong>LASAGNE</strong>
-                </a>
-            </p>
-            <br>
-            <p>
-                <a href="recipes/piri-piri-chicken.html" style="text-decoration: none;">
-                    <strong>PIRI PIRI CHICKEN</strong>
-                </a>
-            </p>
-            <br>
-            <p>
-                <a href="recipes/salads.html" style="text-decoration: none;">
-                    <strong>FRESH SALADS</strong>
-                </a>
-            </p>
-            <br>
-            <p>
-                <a href="recipes/strawberry-sponge.html" style="text-decoration: none;">
-                    <strong>STRAWBERRY SPONGE CAKE</strong>
-                </a>
-            </p>
-        </main>
-        <br><br>
-        <br><br>
-        <div>
-            <a href="https://giphy.com/gifs/dreamworks-alec-baldwin-dreamworks-animation-boss-baby-hr3RuFfIo4cVIkLJEi" target="_blank">
-                <img src="img/boss-baby.gif" alt="Boss Baby Starting the Day Hopeful">
+        <h1 id="title">
+            O d i <span class="accent">n  R</span> e c i p e s
+        </h1>
+        <div class="intro-text" id="one">
+            We know that food and cooking can be <span class="bold">really exhausting</span> and 
+            <span class="bold">really confusing</span>, like ;__; <span class="italic">why did I even bother?
+            </span>
+        </div>
+        <div class="gif">
+            <a href="https://bestanimations.com/gifs/Funny-Cook.html" target="_blank">
+                <img src="img/frustrated-chef.gif" alt="Slamming Dishes in Frustration">
             </a>
         </div>
-        <br><br>
-        <br><br>
-        <footer style="font-size: 62%; color: aliceblue; font-family: sans-serif">
-            <p>
-                <em>Copyright (c) <strong>emptyt33th</strong></em>
-            </p>
-        </footer>
+        <div class="intro-text" id="two">
+            That's why we've chosen to <span class="italic">focus</span> on a <span class="bold">select</span> number 
+            of recipes <span class="bold">only.</span> From there it's up to <span class="bold">you</span> 
+            to change things as <span class="bold">you</span> like.
+        </div>
+    </header>
+    <main id="section-two">
+        <h2 id="subtitle">
+            T h <span class="accent">e  R</span> e c i p e s
+        </h2>
+        <ul id="unordered-list">
+            <li>
+                <a href="recipes/dandan-mian.html" class="list">
+                    Dan dan mian
+                </a>
+            </li>
+            <li>
+                <a href="recipes/lasagne.html" class="list">
+                    Lasagne
+               </a>
+            </li>
+            <li>
+                <a href="recipes/piri-piri-chicken.html" class="list">
+                    Piri piri chicken
+                </a>
+            </li>
+            <li>
+                <a href="recipes/salads.html" class="list">
+                    Fresh salad
+                </a>
+            </li>
+            <li>
+                <a href="recipes/strawberry-sponge.html" class="list">
+                    Strawberry Sponge Cake
+                </a>
+            </li>
+        </ul>
+        <p id="copyright">
+            Copyright &#169; emptyteeth
+        </p>
+    </main>
 </body>
 </html>
